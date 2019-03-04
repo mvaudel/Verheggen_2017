@@ -9,14 +9,14 @@ Figure 3 is an attempt at showing search engine adoption trends by tracking the 
 
 Below is an update of this Figure made on the 26 Feb. 2019. The data are available [here](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/citations/Supplementary%20Material%20-%20data.xlsx). The script used to generate the figure is available [here](https://github.com/mvaudel/Verheggen_2017/blob/master/R/cumulative_citation_figure.R).
 
-[](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/cumulative.png)
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/cumulative.png)
 
 As expressed in the manuscript, this figure was made to get an idea of the respective adoption levels of search engines by the community but should be used with caution. Notably, citations are a poor indicator of non-academic use, and use of non-academic software. They do not provide any information on the scientific quality or reliability of the different search engines.
 
 As noted in the original manuscript, _the increasing prevalence of other algorithms (a category that includes recent engines such asMS
 Amanda and MS-GF+) shows the interest of the community for more innovative approaches_. Sorting the search engines based on the total number of citations penalizes these recent engines. The figure below shows the rank of search engine number of citations when using only the years 2017 and 2018, as well as the rank gain compared to a ranking taking into account all citations. For example, MS-GF+ is rank 5 for the years 2017-2018, +5 compared to the rank using all citations (10).
 
-[](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/rank_delta.png)
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/rank_delta.png)
 
 
 ## Figure 4
