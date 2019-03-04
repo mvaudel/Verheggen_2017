@@ -47,50 +47,29 @@ figure 4 aimed at representing how the search parameters influence the search sp
 | 14  | Charges         | 1 to 6          | Search including charge 1 to 6                                                                          |
 
 
-## Search space
+### A- Search space
 
-![](illustrations/searchSpace.png)
+The density of the number of possible peptides per precursor is plotted as violin plot for every parameter of Table 1 after logarithm base 10 transformation. In each case, a large dash represents the median and two smaller dashes represent the upper and lower quartiles. The densities are colored according to the categories of Table 1 and ordered by increasing median.
 
-Figure 4A: The density of the number of possible peptides per precursor is plotted as violin plot for every parameter of Table 1 after logarithm base 10 transformation. In each case, a large dash represents the median and two smaller dashes represent the upper and lower quartiles. The densities are colored according to the categories of Table 1 and ordered by increasing median.
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/searchSpace.png)
 
-This figure is obtained using the following script
+### B- Zeros
 
-> R/SearchSpaceIllustration.R
+The number of peptides considered during the search is plotted for every setting of Table 1 in the same order and coloring as for Figure 4A. The peptides with a hyperscore > 0 are outlined in black.
 
-
-## Zeros
-
-![](illustrations/nZeros.png)
-
-Figure 4B: The number of peptides considered during the search is plotted for every setting of Table 1 in the same order and coloring as for Figure 4A. The peptides with a hyperscore > 0 are outlined in black.
-
-This figure is obtained using the following script.
-
-> R/nZerosIllustration.R
-
-*Note: SearchSpaceIllustration.R needs to be run previously and the objects kept in the workspace.*
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/nZeros.png)
 
 
-## False positive score distribution
+## C- False positive score distribution
 
-![](illustrations/scores.png)
+The density of the scores of decoy hits are plotted as in Figure 4A using the same order.
 
-Figure 4C: The density of the scores of decoy hits are plotted as in Figure 4A using the same order.
-
-This figure is obtained using the following script.
-
-> R/nZerosIllustration.R
-
-*Note: ScoreIllustration.R needs to be run previously and the objects kept in the workspace.*
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/scores.png)
 
 
 ## ID rate
 
-![](illustrations/idRate.png)
+The number of target PSMs in every condition is plotted at 1%, 5%, and 10% FDR in green, orange, and red, respectively.
 
-Figure 4D: The number of target PSMs in every condition is plotted at 1%, 5%, and 10% FDR in green, orange, and red, respectively.
-
-This figure is obtained using the following script.
-
-> R/idRateIllustration.R
+![](https://github.com/mvaudel/Verheggen_2017/blob/master/docs/figures/idRate.png)
 
